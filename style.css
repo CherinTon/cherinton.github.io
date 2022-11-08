@@ -1,0 +1,17 @@
+.chu {
+    text-align: center;
+    color: red;
+    padding-top: 23%;
+    animation: textAni linear 5s infinite;
+}
+
+@keyframes textAni {
+    from {
+        color: red;
+        /* font-size: 100%; */
+    }
+    to {
+        color: rgb(135, 245, 135);
+        /* font-size: 125%; */
+    }
+}
